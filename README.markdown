@@ -7,3 +7,5 @@ Any dead cell with exactly three live neighbors becomes a live cell, as if by re
 
 http://htmlpreview.github.io/?https://github.com/ChrisWiles/Game-of-Life-canvas/blob/master/index.html
 
+![Game of life gif](http://i.imgur.com/Hn2l7h7.gif)
+
