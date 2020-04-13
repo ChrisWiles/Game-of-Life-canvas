@@ -1,44 +1,31 @@
 <!DOCTYPE html>
 <html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Game of Life on canvas</title>
-    
-    
-    
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/css/bootstrap-slider.min.css'>
-
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
-  </head>
-
-  <body>
-
-    <div class="container">
-  <h1><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a></h1>
-
-  <div class="row">
-    <div class="col-sm-3">
-      <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="2" data-slider-max="20" data-slider-step="1" data-slider-value="7" />
-      <h4 id='left'></h4></div>
-    <div class="col-sm-offset-0 col-sm-6">
-      <button type="button" class="btn btn-primary" id='pause'>Pause</button> <button type="button" class="btn btn-primary" id='reset'>Reset</button></div>
-    <div class="col-sm-offset-0 col-sm-3">
-      <h4 id='right'></h4></div>
-  </div>
-</div>
-<canvas id="myCanvas">Your browser doesn't support canvas</canvas>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/bootstrap-slider.min.js'></script>
-
-        <script src="js/index.js"></script>
-
-    
-    
-    
-  </body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Game of Life on canvas</title>
+      <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+      <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/css/bootstrap-slider.min.css'>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div class="container">
+         <h1><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a></h1>
+         <div class="row">
+            <div class="col-sm-3">
+               <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="2" data-slider-max="20" data-slider-step="1" data-slider-value="7" />
+               <h4 id='left'></h4>
+            </div>
+            <div class="col-sm-offset-0 col-sm-6">
+               <button type="button" class="btn btn-primary" id='pause'>Pause</button> <button type="button" class="btn btn-primary" id='reset'>Reset</button>
+            </div>
+            <div class="col-sm-offset-0 col-sm-3">
+               <h4 id='right'></h4>
+            </div>
+         </div>
+      </div>
+      <canvas id="myCanvas">Your browser doesn't support canvas</canvas>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/bootstrap-slider.min.js'></script>
+      <script src="js/index.js"></script>
+   </body>
 </html>
